@@ -1,0 +1,819 @@
+ <!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./asset/css/uikit-rtl.min.css" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <script src="./asset/js/uikit.min.js"></script>
+    <script src="./asset/js/uikit-icons.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>shop 1</title>
+</head>
+<body>
+<!-- Header -->
+<div class="mod-first-nav">
+        <div class="uk-container" data-uk-navbar>
+           <div class="uk-navbar-right">
+               <ul class="uk-navbar-nav uk-visible@m mod-first-nav-list">
+                   <li class=""><a href="index.html">قوانین سایت</a></li>
+                   <li class=""><a href="blog.html">وبلاگ </a></li>
+                   <li class=""><a href="about.html">درباره ما</a></li>
+                   <li class=""><a href="contact.html">تماس با ما</a></li>
+               </ul>
+               <div class="uk-hidden@m">
+                   <div class="uk-navbar-right">
+                       <a class="uk-navbar-toggle" href="#" data-uk-toggle="target: #offcanvas">
+                           <span data-uk-navbar-toggle-icon></span>
+                       </a>
+                   </div>
+                   <div id="offcanvas" data-uk-offcanvas="flip:false; overlay: true">
+                       <div class="uk-offcanvas-bar mod-sid-menu"  style="background-color:white">
+                           <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+                           <a href="index.html"><img class="uk-margin" src="asset/img/Logo.png" data-uk-img></a>
+                           <div class="">
+                               <ul class="uk-subnav uk-flex uk-flex-center" data-uk-margin>
+                                   <li class="mod-nav"><a  href="blog.html">وبلاگ </a></li>
+                                   <li class="mod-nav"><a href="about.html">درباره ما</a></li>
+                                   <li class="mod-nav"><a href="contact.html">تماس با ما</a></li>
+                               </ul>
+                           </div>
+                           <hr class="mod-hr uk-margin-remove-vertical">
+                           <div class="uk-margin-remove-top">
+                               <ul class="uk-nav-default uk-nav-parent-icon mod-nav-list" data-uk-nav>
+                                   <li>
+                                       <a href="">صفحه اصلی</a>
+                                   </li>
+                                   <li class="uk-parent">
+                                       <a href="#">فایل های آماده</a>
+                                       <ul class="uk-nav-sub">
+                                           <li>
+                                               <a href="#">فایل های لایه باز</a>
+                                               <ul>
+                                                   <li><a href="#">کارت ویزیت</a></li>
+                                                   <li><a href="#">تراکت</a></li>
+                                                   <li><a href="#">پوستر تبلیغاتی</a></li>
+                                                   <li><a href="#">لوگو</a></li>
+                                                   <li><a href="#">کاتالوگ</a></li>
+                                                   <li><a href="#">بروشور</a></li>
+                                                   <li><a href="#">قالب سایت</a></li>
+                                                   <li><a href="#">قالب اپلیکیشن</a></li>
+                                               </ul>
+                                           </li>
+                                           <li>
+                                               <a href="#">موکاپ</a>
+                                               <ul>
+                                                   <li><a href="#">موبایل</a></li>
+                                                   <li><a href="#">تراکت</a></li>
+                                                   <li><a href="#">پوستر تبلیغاتی</a></li>
+                                                   <li><a href="#">لوگو</a></li>
+                                                   <li><a href="#">کاتالوگ</a></li>
+                                                   <li><a href="#">بروشور</a></li>
+                                                   <li><a href="#">قالب سایت</a></li>
+                                                   <li><a href="#">قالب اپلیکیشن</a></li>
+                                               </ul>
+                                           </li>
+                                       </ul>
+                                   </li>
+                                   <li class="uk-parent">
+                                       <a href="#">ابزار طراحی</a>
+                                   </li>
+                                   <li class="uk-parent">
+                                       <a href="#">فونت فارسی</a>
+                                   </li>
+                                   <li class="uk-parent">
+                                       <a href="#">آموزش</a>
+   
+                                   </li>
+                                   <li>
+                                       <a href="#">تصاویر استوک</a>
+                                   </li>
+                                   <li>
+                                       <a href="#">طرح های رایگان</a>
+                                   </li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="uk-navbar-left">
+               <div class="uk-subnav mod-nav-left" data-uk-margin>
+                   <div class="uk-inline">
+                       <a>hamed mahdavi</a>   
+                       <!-- <a href="register.html">hamed mahdavi</a>  -->
+                       <div data-uk-dropdown>
+                           <ul class="uk-list mod-list">
+                               <li class="uk-margin-remove"><a href="dashboard.html"> پیشخوان مشتری</a></li>
+                               <li class="uk-margin-remove"><a href="cus-dash.html"> پیشخوان فروشنده</a></li>
+                               <li class="uk-margin-remove"><a href="ticket.html">تیکت پشتیبانی مشتری</a></li>
+                               <li class="uk-margin-remove"><a href="cus-ticket.html">تیکت پشتیبانی فروشنده</a></li>
+                               <li class="uk-margin-remove">خروج از حساب</li>
+                           </ul>
+                       </div>
+                   </div>
+                   <span class="mod-white-icon" ><img src="asset/img/user.svg" alt="" data-uk-svg></span>
+                   <a href="cart.html" class="uk-position-relative mod-white-icon"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/bag.svg" alt="" data-uk-svg></a>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="uk-visible@m">
+       <div class="uk-container">
+           <nav class="mod-bg-white" data-uk-navbar>
+               <div class="uk-navbar-right uk-padding-small">
+                   <a href="index.html"><img src="asset/img/Logo.png" data-uk-img></a>
+               </div>
+               <div class="uk-navbar-left">
+                   <div class="uk-child-width-auto uk-grid-small" data-uk-grid>
+                       <div>
+                           <a href="/theme.html"> 
+                               <div class="mod-height">
+                                   <img src="asset/img/Menu_Adobestock.png" data-uk-img alt="">
+                               </div>
+                               <div class="uk-text-small uk-text-muted">ادوب استوک</div>
+                           </a>
+                       </div>
+                       <div >
+                           <a href="/theme.html">
+                               <div class="mod-height">
+                                   <img src="asset/img/Menu_Codecanyon.png" data-uk-img alt="">
+                               </div>
+                               <div class="uk-text-small uk-text-muted">ادوب استوک</div>
+                           </a>
+                       </div>
+                       <div >
+                           <a href="/theme.html">
+                               <div class="mod-height">
+                                   <img src="asset/img/Menu_Graphicriver.png" data-uk-img alt="">
+                               </div>
+                               <div class="uk-text-small uk-text-muted">ادوب استوک</div>
+                           </a>
+                       </div>
+                       <div >
+                           <a href="/theme.html">
+                               <div class="mod-height">
+                                   <img src="asset/img/Menu_Themeforest.png" data-uk-img alt="">
+                               </div>
+                               <div class="uk-text-small uk-text-muted">ادوب استوک</div>
+                           </a>
+                       </div>
+                   </div>
+               </div>
+           </nav>
+           <hr class="uk-margin-remove-vertical">
+       </div>
+   </div>
+<div class="uk-position-relative uk-container uk-visible@m">
+    <nav data-uk-navbar>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav mod-navbar-nav">
+                <li>
+                    <a href="#">صفحه اصلی</a>
+                </li>
+                <li class="mod-parent">
+                    <a href="#">فایل های آماده</a>
+                    <div class="uk-navbar-dropdown uk-margin-remove-top" data-uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-grid-large" data-uk-grid>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">فایل های لایه باز</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">کارت ویزیت</a></li>
+                                    <li><a href="#">تراکت</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">موکاپ</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">موبایل</a></li>
+                                    <li><a href="#">تراکت</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">تصاویر وکتور</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">مناسبتی</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">محرم</a></li>
+                                    <li><a href="#">رمضان</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto uk-flex uk-flex-left">
+                                <img src="asset/img/Dopdown-Img1.png" data-uk-img alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mod-parent">
+                    <a href="#">ابزار طراحی</a>
+                                        <div class="uk-navbar-dropdown uk-margin-remove-top" data-uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-grid-large" data-uk-grid>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">فایل های لایه باز</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">کارت ویزیت</a></li>
+                                    <li><a href="#">تراکت</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">موکاپ</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">موبایل</a></li>
+                                    <li><a href="#">تراکت</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">تصاویر وکتور</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">مناسبتی</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">محرم</a></li>
+                                    <li><a href="#">رمضان</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto uk-flex uk-flex-left">
+                                <img src="asset/img/Dopdown-Img1.png" data-uk-img alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mod-parent">
+                    <a href="#">فونت فارسی</a>
+                                        <div class="uk-navbar-dropdown uk-margin-remove-top" data-uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-grid-large" data-uk-grid>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">فایل های لایه باز</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">کارت ویزیت</a></li>
+                                    <li><a href="#">تراکت</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">موکاپ</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">موبایل</a></li>
+                                    <li><a href="#">تراکت</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">تصاویر وکتور</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">مناسبتی</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">محرم</a></li>
+                                    <li><a href="#">رمضان</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto uk-flex uk-flex-left">
+                                <img src="asset/img/Dopdown-Img1.png" data-uk-img alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mod-parent">
+                    <a href="#">آموزش</a>
+                    <div class="uk-navbar-dropdown uk-margin-remove-top" data-uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-grid-large" data-uk-grid>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">فایل های لایه باز</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">کارت ویزیت</a></li>
+                                    <li><a href="#">تراکت</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">موکاپ</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">موبایل</a></li>
+                                    <li><a href="#">تراکت</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">تصاویر وکتور</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">مناسبتی</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">محرم</a></li>
+                                    <li><a href="#">رمضان</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto uk-flex uk-flex-left">
+                                <img src="asset/img/Dopdown-Img1.png" data-uk-img alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mod-parent">
+                    <a href="#">تصاویر استوک</a>
+                    <div class="uk-navbar-dropdown uk-margin-remove-top" data-uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-grid-large" data-uk-grid>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">فایل های لایه باز</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">کارت ویزیت</a></li>
+                                    <li><a href="#">تراکت</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">موکاپ</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">موبایل</a></li>
+                                    <li><a href="#">تراکت</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">تصاویر وکتور</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="mod-blue"><a href="#">مناسبتی</a></div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">محرم</a></li>
+                                    <li><a href="#">رمضان</a></li>
+                                    <li><a href="#">پوستر تبلیغاتی</a></li>
+                                    <li><a href="#">لوگو</a></li>
+                                    <li><a href="#">کاتالوگ</a></li>
+                                    <li><a href="#">بروشور</a></li>
+                                    <li><a href="#">قالب سایت</a></li>
+                                    <li><a href="#">قالب اپلیکیشن</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-auto uk-flex uk-flex-left">
+                                <img src="asset/img/Dopdown-Img1.png" data-uk-img alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">طرح های رایگان</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="uk-navbar-dropbar uk-margin-remove-top">
+
+    </div>
+</div>
+<div>
+    <div class="uk-section-large uk-background-cover uk-text-right uk-light"
+         data-src="asset/img/Header.jpg"
+         data-srcset="asset/img/Header.jpg" data-uk-img>
+        <div class="uk-container uk-text-right" data-uk-margin>
+            <div class="uk-flex uk-flex-middle">
+                <div>
+                    <h1 class="uk-h3">تماس با ما</h1>
+        
+                    <div class="uk-margin-medium-top">
+                            صفحه اصلی 
+                    <span class="mod-chevron">تماس با ما</span>           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- header --> 
+<div class="mod-light-bg">
+    <div class="uk-container" >
+        <div class="uk-card uk-card-default mod-card uk-padding-small" style="margin-top: -70px;">
+            <div class="uk-child-width-1-2@s" data-uk-grid>
+                <div class="uk-flex uk-flex-middle">
+                    <div>
+                        <img src="asset/img/Profile-Avatar.png" data-uk-img alt="">
+                    </div>     
+                    <div class="uk-margin-small-right">
+                        <div class="uk-text-bold mod-black">حامد مهدوی</div>
+                        <div class="uk-text-muted">
+                            به پنل کاربری خوش آمدید
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle uk-flex-left@s uk-flex-center">
+                    <button class="uk-button mod-button-sale">فروشنده شوید</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="uk-subnav uk-child-width-expand@m uk-child-width-1-4@s uk-child-width-1-2 uk-flex-center uk-grid-collapse uk-padding-large uk-margin-large" data-uk-grid style="background-color: white">
+        <li class="uk-text-center">
+            <a href="/dashboard.html">
+                <div class="mod-font-m mod-blue">
+                    بازگشت به پیشخوان
+                    <span data-uk-icon="icon:arrow-right;ratio:1.5"></span>
+                </div>
+            </a>
+        </li>
+    </ul>  
+    <div class="uk-section" style="background: white">
+            <div class="uk-container toggle toggle2">
+                <h2 class="mod-blue uk-h4 uk-text-right@s uk-text-center">تیکت های پشتیبانی</h2>
+                <div class="uk-child-width-1-2@s uk-child-width-1-1" data-uk-grid>
+                    <div class="uk-text-right@s uk-text-center mod-light-blue2">
+                        لیست کاملی از تیکت هایی که ارسال نموده اید
+                    </div>
+                    <div class="uk-text-left@s uk-text-center uk-text-muted">
+                        <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-left@s">
+                            <button class="uk-button mod-button-sale" type="button" uk-toggle="target: .toggle">تیکت جدید</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-margin-medium">
+                    <table class="uk-table uk-table-responsive uk-table-divider mod-card uk-text-center">
+                        <thead class="uk-background-muted ">
+                            <tr>
+                                <th class="uk-text-center">ردیف</th>
+                                <th class="uk-text-center">عنوان تیکت</th>
+                                <th class="uk-text-center">بخش</th>
+                                <th class="uk-text-center">محصول مرتبط</th>
+                                <th class="uk-text-center">تاریخ ثبت تیکت</th>
+                                <th class="uk-text-center">وضعیت تیکت</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="mod-black">
+                                <td>01</td>
+                                <td class="mod-blue">
+                                    <a href="ticket-reply.html">مشکل دانلود فایل خریداری شده</a></td>
+                                <td>پشتیبانی فنی</td>
+                                <td> پوستر جشنواره فجر</td>
+                                <td>1397</td>
+                                <td class="mod-red">در انتظار پاسخ</td>
+                            </tr>
+                            <tr class="mod-black">
+                                <td>02</td>
+                                <td class="mod-blue">
+                                    <a href="ticket-reply.html">مشکل دانلود فایل خریداری شده</a>
+                                </td>
+                                <td>پشتیبانی فنی</td>
+                                <td>-</td>
+                                <td>1397</td>
+                                <td class="mod-green">پاسخ داده شد</td>
+                            </tr>
+                            <tr class="mod-black">
+                                <td>03</td>
+                                <td class="mod-blue">
+                                    <a href="ticket-reply.html">مشکل دانلود فایل خریداری شده</a>
+                                </td>
+                                <td>پشتیبانی فنی</td>
+                                <td>-</td>
+                                <td>1397</td>
+                                <td class="mod-green">پاسخ داده شد</td>
+                            </tr>
+                            <tr class="mod-black">
+                                <td>04</td>
+                                <td class="mod-blue">
+                                    <a href="ticket-reply.html">مشکل دانلود فایل خریداری شده</a>
+                                </td>
+                                <td>پشتیبانی فنی</td>
+                                <td>-</td>
+                                <td>1397</td>
+                                <td class="mod-green">پاسخ داده شد</td>
+                            </tr>
+                            <tr class="mod-black">
+                                <td>05</td>
+                                <td class="mod-blue">
+                                    <a href="ticket-reply.html">مشکل دانلود فایل خریداری شده</a>
+                                </td>
+                                <td>پشتیبانی فنی</td>
+                                <td>-</td>
+                                <td>1397</td>
+                                <td class="mod-green">پاسخ داده شد</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="uk-container toggle toggle2" hidden>
+                <h2 class="mod-blue uk-h4 uk-text-right@s uk-text-center">ثبت تیکت جدید</h2>
+                <div class="uk-child-width-1-2@s uk-child-width-1-1" data-uk-grid>
+                    <div class="uk-text-right@s uk-text-center mod-light-blue2">
+                        لیست کاملی از تیکت هایی که ارسال نموده اید
+                    </div>
+                    <div class="uk-text-left@s uk-text-center uk-text-muted">
+                        <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-left@s mod-blue">
+                            <a href="#" data-uk-toggle="target: .toggle2">بازگشت به تیکت ها <span data-uk-icon="arrow-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف. 
+                </div>
+                <form class="uk-margin-medium">
+                    <div data-uk-grid>
+                        <div class="uk-width-1-2@s mod-black uk-inline">
+                            <select class="uk-input mod-select">
+                                    <option>لطفا بخش مورد نظر خود را انتخاب نمایید</option>
+                                    <option>Option 02</option>
+                            </select>
+                            <span class="uk-form-icon uk-form-icon-flip mod-black" data-uk-icon="icon:chevron-down"></span>
+                        </div>
+                        <div class="uk-width-1-2@s mod-black uk-inline">
+                            <select class="uk-input mod-select">
+                                <option>لطفا محصول مورد نظر خود را انتخاب نمایید</option>
+                                <option>Option 02</option>
+                            </select>
+                            <span class="uk-form-icon uk-form-icon-flip mod-black" data-uk-icon="icon:chevron-down"></span>
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input mod-input" placeholder="عنوان تیکت ">
+                        </div>
+                        <div class="uk-width-1-2@s mod-black uk-inline" >
+                            <select class="uk-input mod-select">
+                                <option>الویت تیکت</option>
+                                <option>Option 02</option>
+                            </select>
+                            <span class="uk-form-icon uk-form-icon-flip mod-black" data-uk-icon="icon:chevron-down"></span>
+                        </div>
+                        <div class="uk-width-1-1">
+                            <textarea class="uk-textarea mod-input" rows="10" placeholder="لطفا متن تیکت خود را وارد نمایید "></textarea>
+                        </div>
+                        <div class="uk-width-1-1" data-uk-margin>
+                            <input class="uk-button mod-send-ticket" value="ارسال تیکت">
+                            <input class="uk-button mod-cancel-ticket" value="لغو ارسال">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
+<!-- footer -->
+<div class="uk-section uk-padding-remove-bottom mod-footer">
+        <div class="uk-container">
+            <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-child-width-1-1 uk-grid-small uk-margin-medium" data-uk-grid>
+                <div>
+                    <div class="uk-grid-small" data-uk-grid>
+                        <div class="uk-width-auto">
+                            <img src="asset/img/Ico-Footer1.svg" data-uk-svg alt="">
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="mod-white">
+                                1520 کاربر فعال
+                            </div>
+                            <div class="uk-text-small mod-footer-color">
+                               کاربرانی که عضو سایت هستند
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid-small" data-uk-grid>
+                        <div class="uk-width-auto">
+                            <img src="asset/img/Ico-Footer2.svg" data-uk-svg alt="">
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="mod-white">
+                               480 محصول
+                            </div>
+                            <div class="uk-text-small mod-footer-color">
+                                محصولاتی که در سایت منتشر شدند
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid-small" data-uk-grid>
+                        <div class="uk-width-auto">
+                            <img src="asset/img/Ico-Footer3.svg" data-uk-svg alt="">
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="mod-white">
+                               365 فروشنده
+                            </div>
+                            <div class="uk-text-small mod-footer-color">
+                                فروشندگانی که تایید شدند
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid-small" data-uk-grid>
+                        <div class="uk-width-auto">
+                            <img src="asset/img/Ico-Footer4.svg" data-uk-svg alt="">
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="mod-white">
+                                1865 رضایتمندی
+                            </div>
+                            <div class="uk-text-small mod-footer-color">
+                               کاربرانی که از خرید رضایت داشتند
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mod-hr">
+            <div data-uk-grid>
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                    <h2 class="uk-h4 mod-white">آشنایی با ما</h2>
+                    <div>
+                        <a class="uk-button uk-button-text mod-font-m mod-footer-color" href="about.html">درباره ما</a>
+                    </div>
+                    <div>
+                        <a class="uk-button uk-button-text mod-font-m mod-footer-color" href="contact.html">تماس با ما</a>
+                    </div>
+                    <div>
+                        <a class="uk-button uk-button-text mod-font-m mod-footer-color" href="blog.html">وبلاگ آن طرح</a>
+                    </div>
+                    <div>
+                        <a class="uk-button uk-button-text mod-font-m mod-footer-color" href="faq.html">سوالات متداول</a>
+                    </div>
+                </div>
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                    <h2 class="uk-h4 mod-white">دسترسی سریع</h2>
+                    <div>
+                        <a class="uk-button uk-button-text mod-font-m mod-footer-color" href="sales-law.html">قوانین خرید</a>
+                    </div>
+                    <div>
+                        <a class="uk-button uk-button-text mod-font-m mod-footer-color" href="#">قوانین فروش</a>
+                    </div>
+                    <div>
+                        <a class="uk-button uk-button-text mod-font-m mod-footer-color" href="privacy.html">حریم خصوصی</a>
+                    </div>
+                    <div>
+                        <a class="uk-button uk-button-text mod-font-m mod-footer-color" href="help.html">چگونه خرید کنیم؟</a>
+                    </div>
+                </div>
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                    <h2 class="uk-h4 mod-white">فروشگاه آن طرح</h2>
+                    <p class="uk-text-justify uk-padding-small uk-padding-remove-top uk-padding-remove-right mod-font-m mod-footer-color">
+                        فروشگاه خانه مبل با سابقه دیرینه در صنعت مبلمان و محصولات چوبی، با افتخار به عرض می رساند این فروشگاه با عرضه با کیفیت ترین مصنوعات چوبی قدمی شگرف در صنعت مبلمان و  </p>
+                </div>
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1 uk-flex uk-flex-center uk-flex-middle">
+                    <div class="uk-child-width-auto uk-grid-small" data-uk-grid>
+                        <div>
+                            <div class="mod-namad uk-flex uk-flex-center uk-flex-middle uk-box-shadow-small">
+                                <img src="asset/img/namad.png" data-uk-img>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mod-namad uk-flex uk-flex-center uk-flex-middle uk-box-shadow-small">
+                                <img src="asset/img/samandehi.png" data-uk-img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-background-cover mod-footer-height uk-position-relative" style="background-image:url('asset/img/Footer_Wave.png')">
+            <div class="uk-container uk-position-bottom uk-padding">
+                <div class="uk-child-width-1-2@s" data-uk-grid>
+                    <div class="uk-text-right@s uk-text-center mod-footer-color">
+                        کلیه حقوق برای ان طرح محفوظ است.
+                    </div>
+                    <div>
+                        <ul class="uk-subnav uk-flex uk-flex-left@s uk-flex-center mod-network" data-uk-margin>
+                            <li><a href="#"><img src="asset/img/Social_Facebook.svg" data-uk-svg></a></li>
+                            <li><a href="#"><img src="asset/img/Social_Google.svg" data-uk-svg></a></li>
+                            <li><a href="#"><img src="asset/img/Social_Instagram.svg" data-uk-svg></a></li>
+                            <li><a href="#"><img src="asset/img/Social_Telegram.svg" data-uk-svg></a></li>
+                            <li><a href="#"><img src="asset/img/Social_Twitter.svg" data-uk-svg></a></li>
+                            <li><a href="#"><img src="asset/img/Social_Whatsapp.svg" data-uk-svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
